@@ -1,0 +1,246 @@
+
+nav a {
+  font-family: cursive;
+}
+
+
+/* START OF IMAGE-SECTION */
+#image-section {
+  background-image: url("/img/abstract.jpeg");
+  background-size: cover !important;
+  height: 450px;
+  position: relative;
+  text-align: center;
+
+}
+#image-section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+#image-section .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#image-section .text h1 {
+  color: #FFF !important;
+  text-shadow: 1px 1px #000000;
+  opacity: 1.0;
+}
+#image-section .text p {
+  color: #FFF !important;
+  text-shadow: 1px 1px #000000;
+  opacity: 1.0;
+}
+/* END OF IMAGE-SECTION */
+
+
+/* START OF EXPERIENCE-SECTION */
+#experience-section {
+  background-image: url("/img/windows.jpeg");
+  background-size: cover !important;
+  height: 450px;
+  position: relative;
+  text-align: center;
+}
+#experience-section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.8);
+}
+#experience-section .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#experience-section .text h1 {
+  color: #282828 !important;
+  text-shadow: 1px 1px #FFF;
+  opacity: 1.0;
+}
+#experience-section .text p {
+  color: #282828 !important;
+  text-shadow: 0.5px 0.5px #FFF;
+  opacity: 1.0;
+}
+/* END OF EXPERIENCE-SECTION */
+
+
+/* START OF PARTS-SECTION */
+#parts-section {
+  background-image: url("/img/shop.jpg");
+  background-size: cover !important;
+  height: 100rem;
+  position: relative;
+  text-align: center;
+
+}
+#parts-section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+#parts-section .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+#parts-section .text h1 {
+  color: #FFF !important;
+  text-shadow: 1px 1px #000000;
+  opacity: 1.0;
+}
+#parts-section .text p {
+  color: #FFF !important;
+  text-shadow: 1px 1px #000000;
+  opacity: 1.0;
+}
+/* END OF PARTS-SECTION */
+
+
+
+/* START OF FOOTER */
+
+.full {
+    width: 100%;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #282828;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 0px;
+	text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 40px 0 10px;
+	font-family: cursive;
+  font-weight: lighter
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+.email{
+  border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+	padding: 0 0 12px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+	color: white;
+  font-weight: lighter;
+  font-size:
+}
+
+.footer a:hover {
+	text-decoration:none;
+  font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.copyright {
+	padding-top: 6px;
+  font-size: 0.75em;
+  text-align: center;
+}
+/* END OF FOOTER */
+
+
+/************** what to add in a media querie
+*******************/
+.footer .container .row #company-name{
+  /* visibility: collapse; */
+}
+.footer .container .row #contact-links{
+  /* visibility: hidden; */
+}
+.footer .container .row #bottom-links{
+  /* visibility: hidden; */
+}
+/**/
+
+@media (max-width: @screen-xs-max) { 
+  #parts-section {
+
+    height: 900rem;
+
+  }
+
+}
