@@ -1,12 +1,21 @@
-
+html,body {
+    margin:0;
+    padding:0;
+}
 nav a {
   font-family: cursive;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+nav .navbar-brand {
+  font-size: 25px;
 }
 
 
 /* START OF IMAGE-SECTION */
 #image-section {
-  background-image: url("/img/abstract.jpeg");
+  background-image: url("https://i.postimg.cc/85vqNLhW/abstract.jpg");
   background-size: cover !important;
   height: 450px;
   position: relative;
@@ -43,7 +52,7 @@ nav a {
 
 /* START OF EXPERIENCE-SECTION */
 #experience-section {
-  background-image: url("/img/windows.jpeg");
+  background-image: url("https://i.postimg.cc/FFj26gFX/windows.jpg");
   background-size: cover !important;
   height: 450px;
   position: relative;
@@ -79,9 +88,11 @@ nav a {
 
 /* START OF PARTS-SECTION */
 #parts-section {
-  background-image: url("/img/shop.jpg");
+  background-image: url("https://i.postimg.cc/QtzRr09j/shop.jpg");
   background-size: cover !important;
-  height: 100rem;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
   position: relative;
   text-align: center;
 
@@ -95,19 +106,24 @@ nav a {
     bottom: 0;
     background: rgba(0,0,0,0.5);
 }
-#parts-section .text {
+#parts-section .container .writing {
+  padding-top: 50px;
+  width: 100%;
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.0);
 }
-#parts-section .text h1 {
+#parts-section .container .writing h1 {
   color: #FFF !important;
   text-shadow: 1px 1px #000000;
-  opacity: 1.0;
+
+
 }
-#parts-section .text p {
+#parts-section .container .writing p {
   color: #FFF !important;
   text-shadow: 1px 1px #000000;
   opacity: 1.0;
@@ -127,7 +143,7 @@ nav a {
 	clear: both;
 	display: block;
 }
-.footer {
+#footer {
 	background: #282828;
 	height: auto;
 	padding-bottom: 30px;
@@ -136,13 +152,16 @@ nav a {
 	border-bottom: 1px solid #CCCCCC;
 	border-top: 1px solid #DDDDDD;
 }
-.footer p {
+#footer .container {
+ margin-left: 20px;
+}
+#footer p {
 	margin: 0;
 }
-.footer img {
+#footer img {
 	max-width: 100%;
 }
-.footer h3 {
+#footer h3 {
 	color: white;
 	font-size: 18px;
 	font-weight: 600;
@@ -152,7 +171,7 @@ nav a {
   margin-bottom: 15px;
 }
 
-.footer h4 {
+#footer h4 {
 	color: white;
 	font-size: 2em;
 	font-weight: 600;
@@ -162,7 +181,7 @@ nav a {
   font-weight: lighter
 }
 
-.footer ul {
+#footer ul {
 	font-size: 13px;
 	list-style-type: none;
 	margin-left: 0;
@@ -175,22 +194,22 @@ nav a {
 .email{
   border-bottom: 3px solid #fff;
 }
-.footer ul li a {
+#footer ul li a {
 	padding: 0 0 12px 0;
 	display: block;
 }
-.footer a {
+#footer a {
 	color: white;
   font-weight: lighter;
 }
 
-.footer p {
+#footer p {
 	color: white;
   font-weight: lighter;
   font-size:
 }
 
-.footer a:hover {
+#footer a:hover {
 	text-decoration:none;
   font-weight: bold;
 }
@@ -207,7 +226,7 @@ nav a {
 	box-shadow: 0 1px 0 #B4B3B3;
 }
 
-.footer a {
+#footer a {
 	color: #78828D
 }
 
@@ -225,22 +244,22 @@ nav a {
 
 /************** what to add in a media querie
 *******************/
-.footer .container .row #company-name{
+#footer .container .row #company-name{
   /* visibility: collapse; */
 }
-.footer .container .row #contact-links{
+#footer .container .row #contact-links{
   /* visibility: hidden; */
 }
-.footer .container .row #bottom-links{
+#footer .container .row #bottom-links{
   /* visibility: hidden; */
 }
 /**/
 
-@media (max-width: @screen-xs-max) { 
-  #parts-section {
+@media (max-width: @screen-xs-max) {
+  /* #parts-section {
 
     height: 900rem;
 
-  }
+  } */
 
 }
