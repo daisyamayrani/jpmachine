@@ -4,13 +4,17 @@ html,body {
 }
 
 nav a {
-  font-family: cursive;
+  font-family: 'Kulim Park', sans-serif;
+
+  /* word-spacing: 1px; */
+  /* font-style: italic; */
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 nav .navbar-brand {
   font-size: 2.5rem;
+  font-family: cursive;
 }
 
 /* START OF IMAGE-SECTION */
@@ -341,7 +345,7 @@ and (max-width: 710px) {
     margin-bottom: 0px;
   }
   #about-section .text h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 0px;
   }
   #about-section .text p {
