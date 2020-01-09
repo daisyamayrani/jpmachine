@@ -58,6 +58,13 @@ nav .navbar-brand {
   text-shadow: 1px 1px #000000;
   font-family: 'Ibarra Real Nova', serif;
   opacity: 1.0;
+  padding-bottom: 15px;
+}
+
+#about-section .text a button {
+  padding-top:10px;
+  font-size: 1.2rem;
+
 }
 /* END OF IMAGE-SECTION */
 
