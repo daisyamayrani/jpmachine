@@ -21,7 +21,7 @@ nav .navbar-brand {
 #about-section {
   background-image: url("https://i.postimg.cc/85vqNLhW/abstract.jpg");
   background-size: cover !important;
-  height: 700px;
+  height: 95vh;
   position: relative;
   text-align: center;
 }
@@ -45,6 +45,7 @@ nav .navbar-brand {
 #about-section .text h1 {
   color: #FFF !important;
   font-size: 4rem;
+  font-family: 'Ibarra Real Nova', serif;
   text-shadow: 1px 1px #000000;
   opacity: 1.0;
   padding-bottom: 15px;
@@ -55,6 +56,7 @@ nav .navbar-brand {
   font-size: 1.5rem;
   word-spacing: 1px;
   text-shadow: 1px 1px #000000;
+  font-family: 'Ibarra Real Nova', serif;
   opacity: 1.0;
 }
 /* END OF IMAGE-SECTION */
@@ -64,9 +66,10 @@ nav .navbar-brand {
 #experience-section {
   background-image: url("https://i.postimg.cc/FFj26gFX/windows.jpg");
   background-size: cover !important;
-  height: 550px;
+  height: auto;
   position: relative;
   text-align: center;
+  padding-bottom:25px;
 }
 
 #experience-section:before{
@@ -80,23 +83,59 @@ nav .navbar-brand {
 }
 
 #experience-section .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: 'Ibarra Real Nova', serif;
+
 }
 
 #experience-section .text h1 {
   color: #282828 !important;
   text-shadow: 1px 1px #FFF;
-  opacity: 1.0;
+  padding-bottom: 20px;
 }
 
 #experience-section .text p {
   color: #282828 !important;
-  text-shadow: 0.5px 0.5px #FFF;
-  opacity: 1.0;
+
+
 }
+
+#experience-section .boxes-area{
+  position: relative;
+
+}
+#experience-section .boxes-area .boxes {
+  width: 100%;
+
+}
+#experience-section .boxes-area .boxes .box{
+  border-bottom: 3px solid rgba(103, 128, 159, .3);
+  padding: 25px 25px 0 25px;
+
+  -webkit-box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
+-moz-box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
+box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
+
+
+}
+#experience-section .boxes-area .boxes .box i{
+  color: #282828 !important;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#experience-section .boxes-area .boxes .box h4{
+  color: #282828 !important;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#experience-section .boxes-area .boxes p{
+  color: #282828 !important;
+}
+
 /* END OF EXPERIENCE-SECTION */
 
 
@@ -123,6 +162,7 @@ nav .navbar-brand {
 
 #work-section .container .writing {
   padding-top: 50px;
+  font-family: 'Ibarra Real Nova', serif;
   width: 100%;
   content: '';
   position: absolute;
@@ -152,6 +192,7 @@ nav .navbar-brand {
   height: 550px;
   position: relative;
   text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 #call-to-action-section:before{
