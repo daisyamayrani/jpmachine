@@ -1,13 +1,12 @@
-html,body {
+html,.top-menu {
     margin:0;
     padding:0;
 }
 
+
+
 nav a {
   font-family: 'Kulim Park', sans-serif;
-
-  /* word-spacing: 1px; */
-  /* font-style: italic; */
   margin-right: 10px;
   font-size: 19px;
 }
@@ -93,6 +92,8 @@ nav .navbar-brand {
   position: relative;
   padding-top: 70px;
   padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Ibarra Real Nova', serif;
 
 }
@@ -105,16 +106,22 @@ nav .navbar-brand {
 
 #experience-section .text p {
   color: #282828 !important;
-
-
 }
 
 #experience-section .boxes-area{
   position: relative;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 #experience-section .boxes-area .boxes {
-  width: 100%;
+  
+  text-align: center;
+  position: relative;
+  margin: auto !important;
+  justify-content: space-around;
 
 }
 #experience-section .boxes-area .boxes .box{
@@ -388,9 +395,7 @@ and (max-width: 709px) {
 @media only screen
 and (max-width: 710px) {
   #about-section {
-    /* background-color: red!important; */
-    height: 500px;
-    margin-bottom: 0px;
+
   }
   #about-section .text h1 {
     font-size: 2.5rem;
@@ -404,8 +409,17 @@ and (max-width: 710px) {
     opacity: 1.0;
   }
 
+
+  #experience-section .boxes-area{
+
+
+
+  }
+
+
+
+
   #call-to-action-section {
-    /* background-color: red!important; */
     height: 500px;
     margin-bottom: 0px;
   }
@@ -452,4 +466,8 @@ and (min-width: 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+  .navbar-toggler {
+    display: none;
+  }
+
 }
