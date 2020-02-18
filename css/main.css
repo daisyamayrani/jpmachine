@@ -19,8 +19,8 @@ nav .navbar-brand {
 /* START OF IMAGE-SECTION */
 #about-section {
   background-image: url("https://i.postimg.cc/85vqNLhW/abstract.jpg");
-  background-size: cover !important;
-  height: 95vh;
+  background-size: contain !important;
+  height: 800px;
   position: relative;
   text-align: center;
 }
@@ -117,7 +117,7 @@ nav .navbar-brand {
 
 }
 #experience-section .boxes-area .boxes {
-  
+
   text-align: center;
   position: relative;
   margin: auto !important;
@@ -395,7 +395,7 @@ and (max-width: 709px) {
 @media only screen
 and (max-width: 710px) {
   #about-section {
-
+    height: 500px;
   }
   #about-section .text h1 {
     font-size: 2.5rem;
@@ -412,12 +412,7 @@ and (max-width: 710px) {
 
   #experience-section .boxes-area{
 
-
-
   }
-
-
-
 
   #call-to-action-section {
     height: 500px;
@@ -452,7 +447,10 @@ and (max-width: 710px) {
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width: 1224px) {
-/* Styles */
+  #about-section {
+    height: 900px;
+  }
+
 }
 
 /* Large screens ----------- */
