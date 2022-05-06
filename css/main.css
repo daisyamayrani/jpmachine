@@ -7,6 +7,7 @@ nav a {
   font-family: 'Kulim Park', sans-serif;
   margin-right: 10px;
   font-size: 19px;
+  padding-left: 20px;
 }
 
 nav .navbar-brand {
@@ -19,9 +20,12 @@ nav .navbar-brand {
 
 /* START OF IMAGE-SECTION */
 #about-section {
-  background-image: url("https://i.postimg.cc/85vqNLhW/abstract.jpg");
-  background-size: contain !important;
-  height: 800px;
+  background-image: url("https://i.postimg.cc/wxhKBQ1x/abstract.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
   position: relative;
   text-align: center;
 }
@@ -76,7 +80,7 @@ nav .navbar-brand {
 
 /* START OF EXPERIENCE-SECTION */
 #experience-section {
-  background-image: url("https://i.postimg.cc/FFj26gFX/windows.jpg");
+  background-image: url("https://i.postimg.cc/qMj5tb4r/windows.jpg");
   background-size: cover !important;
   height: auto;
   position: relative;
@@ -166,7 +170,7 @@ box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
 
 /* START OF WORK-SECTION */
 #work-section {
-  background-image: url("https://i.postimg.cc/QtzRr09j/shop.jpg");
+  background-image: url("https://i.postimg.cc/pdnG6P8V/shop.png");
   background-size: cover !important;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -176,7 +180,9 @@ box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
   height: auto;
 }
 
+
 #work-section:before{
+
     content: '';
     background: rgba(0,0,0,0.3);
 }
@@ -207,7 +213,7 @@ box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
 
 /* START OF CALL-TO-ACTION-SECTION */
 #call-to-action-section {
-  background-image: url("https://i.postimg.cc/3NS665Sn/iphone.jpg");
+  background-image: url("https://i.postimg.cc/qM0P66Ks/iphone.jpg");
   background-size: cover !important;
   height: 550px;
   position: relative;
@@ -315,7 +321,7 @@ box-shadow: 7px 6px 22px -2px rgba(0,0,0,0.28);
 	font-size: 2rem;
 	font-weight: 600;
 	line-height: 38px;
-	padding: 40px 0 10px;
+	padding: 40px 0 10px 20px;
 	font-family: cursive;
   font-weight: lighter
 }
@@ -402,6 +408,7 @@ and (max-width: 709px) {
 and (max-width: 710px) {
   #about-section {
     height: 500px;
+
   }
   #about-section .text h1 {
     font-size: 2.5rem;
@@ -455,7 +462,9 @@ and (max-width: 710px) {
 @media only screen
 and (min-width: 1224px) {
   #about-section {
-    height: 900px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
   }
 
 }
